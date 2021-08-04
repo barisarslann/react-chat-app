@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+
+
+body {
+  background-color: #282c34;
+  font-family: 'Roboto',sans-serif;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.App header {
+  background-color: #181717;
+  max-height: 30px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #252526;
+}
+
+main {
+  padding: 30px 10px 90px 10px;
+  margin: 0;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+form {
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(24, 23, 23);
+  width: 100%;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+form button {
+  width: 10%;
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  background: #252526;
+  right: 5px;
+  top: 5px;
+  border: 1px solid #fff;
+}
+
+
+textarea {
+  width: 100%;
+  font-size: 14px;
+  background: rgb(58, 58, 58);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  resize: none;
+}
+
+button {
+  background-color: #282c34; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.sign-in {
+  color: #282c34;
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+
+
+ul, li {
+  text-align: left;
+  list-style: none;
+}
+
+p {
+  max-width: 400px;
+  margin-bottom: 12px;
+  padding: 5px 16px;
+  line-height: 18px;
+  font-size: 14px;
+  border-radius: 22px;
+  position: relative;
+  color: #ffffffbf;
+  text-align: left;
+  overflow-wrap: break-word;
+  background: #252526!important;
+  border: 1px solid #ffffffbf;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: #ffffffbf;
+  background: #383838!important;
+  align-self: flex-end;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+button:focus{
+  outline: none;
+} 
+h1 {
+  font-size: 18px;
+  padding:10px 0;
+
+}
+
+button.signInButton {
+  position: fixed;
+  top: 100px;
+  background: #181717;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 14px;
+}
