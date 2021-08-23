@@ -8,12 +8,12 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 
 firebase.initializeApp({
-  apiKey: "AIzaSyChQWJme5j7wnqfyukI_WA8bF3vvqsq0LU",
-    authDomain: "personalchat-ceefd.firebaseapp.com",
-    projectId: "personalchat-ceefd",
-    storageBucket: "personalchat-ceefd.appspot.com",
-    messagingSenderId: "473379408256",
-    appId: "1:473379408256:web:88d594c7edcee6b4585965"
+  apiKey: "YOUR_DATA",
+    authDomain: "YOUR_DATA",
+    projectId: "YOUR_DATA",
+    storageBucket: "YOUR_DATA",
+    messagingSenderId: "YOUR_DATA",
+    appId: "YOUR_DATA5"
 })
 
 const auth = firebase.auth();
